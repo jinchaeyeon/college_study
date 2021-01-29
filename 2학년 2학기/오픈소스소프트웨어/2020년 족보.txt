@@ -1,0 +1,13 @@
+1 GNU GPL(General Public License)
+  GNU LGPL(Lesser General Public License)
+  MPL (Mozilla Public License)
+  BSD (Berkeley Software Distribution) License
+  Apache License
+
+2. 명령어 적이 5개(git 2개, 현재 커널 상태, 마운트 명령어, time 명령어)
+
+3. sudo와 su 공통점과 차이점
+
+4. 명령어 주고 왜 쓰이는지 설명(용도, 결과?) (10개)
+
+5. git과 github 차이점

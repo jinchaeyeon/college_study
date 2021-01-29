@@ -1,0 +1,36 @@
+상속을 받아서 직접 접근이 불가능 할 수 있음.
+한 객체가 있을 경우 참조 변수 타입은 여러개가 될수있음.
+다중 상속(multiple) = java는 허용 안됨. (단일 상속만 됨)
+super class를 계속해서 올라가다 보면 object가 최상위 클래스가 됨.
+method signature = methodName(parameterSpecification) 이 부분에서  methodName(parameterSpecification) 부분이 signature.
+ - 이름,파라미터 변경 x(재정의(overriding) 할때), 바디, 리턴타입만 변경 
+final class,method는 상속, 재정의 불가능
+메소드 재정의 시 가시성(visibility) 확장 가능(축소 안됨)
+private variable 접근 방법은?
+ 1) protected variable
+ 2) protected method
+static 메소드는 컴파일시 바인딩(다른 객체 참조) 된다. -  참조 변수 타입에 따름
+instance 메소드는 실행시간 시 바인딩 된다. - 클래스 타입을 따른다.
+ex) 
+Parent
+staticM()
+instanceM()
+
+Child
+staticM() 	- 숨김
+instanceM() - 재정의
+일때 각각 가리키는 것
+	Child chd = new Child();
+	chd.staticM(); -child static M
+	chd.instanceM(); - child instance M
+
+	Parent p = new Child();
+	p.staticM();- parent staticM	
+	p.instanceM();-child instanceM
+
+다형성
+타입이 다른 객체가 같은 이름, 다른 행동의 메소드를 사용할 수 있게 하는 동적 바인딩(dynamic binding)과정.
+구현방법 - 슈퍼클래스에서 상위개념 정의한 후 서브클래스에서 재정의,구현을 함. 이후 슈퍼클래스 타입의 참조변수 선언
+다형성의 장점
+	- 클래스 타입에 관계없이 하나의 추상적인 함수 이름을 사용함.
+	- 새로운 타입의 subclass를 추가해도 프로그램 변경이 거의 없음.

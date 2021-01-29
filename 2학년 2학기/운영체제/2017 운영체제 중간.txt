@@ -1,0 +1,14 @@
+운영 체제 	- 2학년 2학기 중간고사 Ver.2017
+
+             	- 20140286 정원
+
+1. 운영체제의 큰 특징 2가지를 서술 하시오
+
+2. Rom 안에 있는 BootStrap Loader가 Booting 할때 어떠한 순서로 일어나는 지 서술하시오 
+
+3. Single-Thread Process 와 Multi-Thread Process의 각각 정의를 적고, 각각의 장점을 서술 하라.
+
+4. Process Scheduling 상태 전이 과정을 그림 으로 표시 하고, 각각의 특징을 서술 하라.
+
+5. 코딩 문제 Client-Server간 통신 코딩(Data Server 나옴) => 빈칸 완성 문제 + 코드가 돌아가는 것 
+
